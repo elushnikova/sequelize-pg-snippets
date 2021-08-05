@@ -1,0 +1,34 @@
+{
+  "name": "sequelize-snippets",
+  "displayName": "Sequelize + Postgres snippets",
+  "description": "Sequelize CLI scripts/ORM config snippets for VS Code",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "author": "Elena Lushnikova",
+  "publisher": "elushnikova",
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "vscode",
+    "snippets",
+    "sequelize",
+    "sequelize-cli",
+    "postgres"
+  ],
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elushnikova/sequelize-snippets"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}
