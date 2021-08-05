@@ -23,6 +23,10 @@
     "type": "git",
     "url": "https://github.com/elushnikova/sequelize-snippets"
   },
+  "scripts": {
+    "pack": "npx vsce package -o ./packages",
+    "publish": "npx vsce publish"
+  },
   "contributes": {
     "snippets": [
       {
