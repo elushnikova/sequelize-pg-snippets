@@ -18,6 +18,7 @@ Open the link in Visual Studio Code and click "Install" button.
     `pgh` | Add configuration for DB published to Heroku Postgres server.
 
 1. Use in `package.json` "scripts" section: 
+
     Prefix | Description
     --- | ---
     `mg` | Add NPM scripts for migrations/seeds. Do **NOT** use in projects with production data. **For initial development/testing only.**
